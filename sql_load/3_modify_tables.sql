@@ -1,0 +1,3 @@
+-- Tables have been imported through Postgres psql
+-- \COPY transactions(transaction_id, transaction_date, transaction_time, transaction_qty, store_id, store_location, product_id, unit_price, product_category, product_type, product_detail) FROM '/Users/sandybanh/data_project/Coffee_Shop_Sales.csv' DELIMITER ',' CSV HEADER;
+-- \COPY transaction_details(transaction_id, transaction_date, transaction_time, transaction_qty, transaction_day, transaction_month, transaction_hour) FROM '/Users/sandybanh/data_project/Coffee_Shop_Details.csv' DELIMITER ',' CSV HEADER;

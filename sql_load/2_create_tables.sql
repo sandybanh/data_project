@@ -11,3 +11,13 @@ CREATE TABLE transactions (
     product_type VARCHAR(255),
     product_detail VARCHAR(255)
 );
+
+CREATE TABLE transaction_details (
+    transaction_id INT PRIMARY KEY,
+    transaction_date DATE,
+    transaction_time TIME,
+    transaction_qty INT,
+    transaction_day VARCHAR(10),
+    transaction_month VARCHAR(20),
+    transaction_hour VARCHAR(10)
+);
